@@ -130,6 +130,7 @@
     <ClCompile Include="Source.c" />
   </ItemGroup>
   <ItemGroup>
+    <Text Include="OTV.txt" />
     <Text Include="zadacha.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
