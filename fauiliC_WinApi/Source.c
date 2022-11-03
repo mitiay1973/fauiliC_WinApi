@@ -70,7 +70,7 @@ void Quad(float a, float b, float c)
 	else if (a == 0)
 	{
 		x1 = -c / b;
-		sprintf(rez, "Корень равен = %f", &x1);
+		sprintf(rez, "Корень равен = %f", x1);
 		WriteFile(OTV, rez, strlen(rez), &d, NULL);
 		CloseHandle(OTV);
 
